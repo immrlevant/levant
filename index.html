@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEVANT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LEVANT</h1>
+    <p>Limited Edition Hoodie</p>
+    <img src="hoodie.jpg" alt="LEVANT Hoodie" class="product-image">
+    
+    <!-- PayPal Buy Button -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="azemarjulian@gmail.com">
+      <input type="hidden" name="item_name" value="LEVANT Hoodie">
+      <input type="hidden" name="amount" value="50.00">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="shipping" value="5.00">
+      <input type="submit" value="Buy Now" class="buy-button">
+    </form>
+  </div>
+</body>
+</html>
